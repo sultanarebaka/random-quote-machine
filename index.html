@@ -1,42 +1,39 @@
 
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Random Quote Generator</title>
-   
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <title>Random Quote Generator</title>
 
+        <link rel="stylesheet" href="style.css">
 
+    </head>
 
-  <body id="body">
-    <div>
-    <div class="block text-center">
-    <div class = "quote-box block__main block__front">
-      <span class = "quote">
-        <i class="fas fa-2x fa-quote-left"></i>
-        <span class = "text">
-    
-        </span>
-      </span>
-        
-      <div class = "author">
+    <body>
+
+        <div class="container">
+            <h1>
+
+            <i class="fas fa-quote-left"></i>
+
+            <span class="quote" id="quote"></span>
+
+            <i class="fas fa-quote-right"></i>
+
+            </h1>
+
+            <p class="author" id="author"></p>
+
+            <hr/>
+
+            <div class="buttons">
+
+                <button class="next" onclick="getNewQuote()">Next quote</button>
+            </div>
+
       </div>
-      <a  class = "new-quote btn btn-default" 
-          onclick="newQuote()">New Quote</a>
-    </div>
-  
-    <div class = "quote-box block__main block__back">
-  
-      <span class = "quote">
-        <i class="fas fa-2x fa-quote-left"></i>
-  
-        <span class = "text">
-      
-        </span>
-      </span>
 		    <script src="main.js"></script>
   </body>
 </html>
