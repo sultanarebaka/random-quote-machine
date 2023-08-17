@@ -7,71 +7,36 @@
    
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+
+
+
+
+  <body id="body">
+    <div>
+    <div class="block text-center">
+    <div class = "quote-box block__main block__front">
+      <span class = "quote">
+        <i class="fas fa-2x fa-quote-left"></i>
+        <span class = "text">
     
-div class="container">
-	<div class="row">
-		<div class="col-xs-12 col-sm-3"></div>
-		<div class="col-xs-12 col-sm-6 quotebox">
-			<div class="row">
-				<div class="col-xs-12">
-					<blockquote>
-						<i class="fa fa-quote-left quotemark"></i>
-						<h2 id="quotetext"></h2>
-						<footer id="quotesource"></footer>
-					</blockquote>
-				</div>
-			</div>   
-
-   
-			<div class="row">
-				<div class="col-xs-12 col-sm-12">
-				  
-				  	<div class="social-icons icon-rounded"><a id="tweet-quote" title="Tweet this quote!" target="_blank"><i class="fa fa-twitter"></i></a>
-					</div>
-					<div class="quotebutton"><button class="btn btn-primary" id="newquote">New Quote</button></div>
-					</div>
-				</div>
-
-				</div>
-			</div>
-
-<style>
-
-
-body {background:yellow;}
-.quotemark {
-    position: relative;
-    top: -2px;
-    padding-right: 3px;
-}
-
-
-.blockquote {
-  border-left: 1px solid blue;
-  margin: 3px 10px;
-  padding: 1px 3px;
-}
-
-
-
-.blockquote:before {
-  color: #fff;
-  line-height: 0.1em;
-  margin-right: 0.2em;
-  vertical-align: -0.1em;
-}
-
-
-.blockquote:footer {
-	font-size:18px;
-	text-align:right;
-	color:transparent;
-}
-
-
-
-</style>
+        </span>
+      </span>
+        
+      <div class = "author">
+      </div>
+      <a  class = "new-quote btn btn-default" 
+          onclick="newQuote()">New Quote</a>
+    </div>
+  
+    <div class = "quote-box block__main block__back">
+  
+      <span class = "quote">
+        <i class="fas fa-2x fa-quote-left"></i>
+  
+        <span class = "text">
+      
+        </span>
+      </span>
 		    <script src="main.js"></script>
   </body>
 </html>
