@@ -67,7 +67,13 @@ body{
 }
 
 
+.buttons {
 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
 
 hr {
 
@@ -75,3 +81,6 @@ hr {
     width: 100%;
     border: 1px solid black;
 }
+
+
+
