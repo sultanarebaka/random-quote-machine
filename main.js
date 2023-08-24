@@ -12,3 +12,10 @@ const getNewQuote = async () =>
 
 
 const response=await fetch(url);
+
+
+
+const quote=allQuotes[indx].text;
+
+    
+
