@@ -19,3 +19,6 @@ const quote=allQuotes[indx].text;
 
     
 
+const allQuotes = await response.json();
+
+
