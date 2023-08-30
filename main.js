@@ -11,6 +11,12 @@ const getNewQuote = async () =>
     var url="https://type.fit/api/quotes";    
 
 
+
+const tweetButton=document.getElementById("tweet");
+
+
+
+
 const response=await fetch(url);
 
 
