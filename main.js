@@ -22,3 +22,8 @@ const quote=allQuotes[indx].text;
 const allQuotes = await response.json();
 
 
+
+
+text.innerHTML=quote;
+
+    author.innerHTML="~ "+auth;
