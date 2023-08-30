@@ -34,3 +34,10 @@ getNewQuote();
 const auth=allQuotes[indx].author;
 
 const indx = Math.floor(Math.random()*allQuotes.length);
+
+
+
+
+const response=await fetch(url);
+
+    console.log(typeof response);
