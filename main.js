@@ -32,3 +32,5 @@ getNewQuote();
 
 
 const auth=allQuotes[indx].author;
+
+const indx = Math.floor(Math.random()*allQuotes.length);
