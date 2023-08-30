@@ -29,3 +29,6 @@ text.innerHTML=quote;
     author.innerHTML="~ "+auth;
 
 getNewQuote();
+
+
+const auth=allQuotes[indx].author;
