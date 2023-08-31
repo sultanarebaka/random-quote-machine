@@ -34,16 +34,7 @@ const allQuotes = await response.json();
 
 // json and store it in quotes array
 
-    const allQuotes = await response.json();
-
-
-
-   
-text.innerHTML=quote;
-
-    author.innerHTML="~ "+auth;
-
-getNewQuote();
+    const allQuotes =
 
 
 const auth=allQuotes[indx].author;
@@ -52,3 +43,16 @@ const indx = Math.floor(Math.random()*allQuotes.length);
 
 
 genarate a random number
+
+
+
+// display the quote and the author
+
+    text.innerHTML=quote;
+
+    author.innerHTML="~ "+auth;
+
+}
+
+getNewQuote();
+        
