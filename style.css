@@ -1,53 +1,39 @@
-
-
-
-*{
-
+ *{
     margin:0;
     padding:0;
+    font-family:Times New Roman,Times, sans-serif ;
     box-sizing: border-box;
-    font-family:sans-serif;
 
 }
 
-  
-
 body{
-
+    background-color: #B9E9FC ;
+    display: flex;
+    align-items: center;
     min-height:100vh;
     transition: 0.5s;
     transition-timing-function: ease-in;
-    background-color:yellow;
-    display: flex;
-    align-items: center;
     justify-content: center;
-
-   
-
 }
 
-
-
 .container
-
-{
+   {
     display: flex;
     flex-direction: column;
+    width: 700px;
+    background-color: #DAF5FF ;
+    margin: 12px;
     align-items: center;
-    padding: 30px;
+    padding: 50px;
     border-radius: 15px;
-    width: 600px;
-    background-color:yellow-green;
-    margin: 10px;
-
 }
 
 
 .fa-quote-left, .fa-quote-right {
-    font-size: 35px;
-    color:green;
-}
+    font-size: 18px;
+    color: black;
 
+}
 .quote
 {
     text-align: center;
