@@ -34,11 +34,14 @@ body{
     color: black;
 
 }
+
 .quote
+
 {
     text-align: center;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 33px;
+    font-family:Times New Roman;
+    font-weight: 500;
 
 }
 
@@ -48,12 +51,10 @@ body{
     margin:10px;
     text-align: right;
     font-size: 25px;
-    font-style: italic;
-    font-family: cursive;
+    font-style: normal;
+    font-family: sans-serif ;
 
 }
-
-
 .buttons {
 
     width: 100%;
