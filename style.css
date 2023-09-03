@@ -55,27 +55,17 @@ body{
     font-family: sans-serif ;
 
 }
-.buttons {
 
+.buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    margin-top: 8px;
 }
-
-hr {
-
-    margin: 5px 0;
-    width: 100%;
-    border: 1px solid black;
-}
-
-
 
 .next
-
 {
-
     font-family:sans-serif;
     font-size:18px;
     border-radius: 5px;
@@ -86,11 +76,8 @@ hr {
     color: white;
    }
 
-
 .container:hover
 
 {
-
     box-shadow: 0 10px rgb(230, 0, 0);
-
 }
