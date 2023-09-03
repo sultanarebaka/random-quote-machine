@@ -23,11 +23,11 @@ const response=await fetch(url);
 const quote=allQuotes[indx].text;
 
     
-    // json and store it in quotes array
+    // array
 
     const allQuotes = await response.json();
 
-// json and store it in quotes array
+// array
 
     const allQuotes =
 
@@ -35,7 +35,7 @@ const auth=allQuotes[indx].author;
 const indx = Math.floor(Math.random()*allQuotes.length);
 
 
-// display the quote and the author
+// quote and the author
     text.innerHTML=quote;
 
     author.innerHTML="~ "+auth;
@@ -43,4 +43,15 @@ const indx = Math.floor(Math.random()*allQuotes.length);
 }
 
 getNewQuote();
-        
+
+
+
+       const indx = Math.floor(Math.random()*allQuotes.length);
+
+
+
+    / index
+
+    const quote=allQuotes[indx].text;
+
+     
