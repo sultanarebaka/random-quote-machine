@@ -5,13 +5,19 @@ const text=document.getElementById("quote");
 
 const author=document.getElementById("author");
 
+const tweetButton=document.getElementById("tweet");
+
+
+
 const getNewQuote = async () =>
 
 {
-    const response=await fetch(url);
 
-    console.log(typeoresponsese);
-    const quote=allQuotes[indx].text;
+    //api for quotes
+
+    var url="https://type.fit/api/quotes";    
+
+
 
 const response=await fetch(url);
 const quote=allQuotes[indx].text;
