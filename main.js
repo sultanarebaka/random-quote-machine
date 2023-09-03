@@ -27,18 +27,19 @@ const quote=allQuotes[indx].text;
 
     const allQuotes = await response.json();
 
+
+
+ text.innerHTML=quote;
+
+    author.innerHTML="~ "+auth;
+
+
 // array
 
     const allQuotes =
 
 const auth=allQuotes[indx].author;
-const indx = Math.floor(Math.random()*allQuotes.length);
-
-
-// quote and the author
-    text.innerHTML=quote;
-
-    author.innerHTML="~ "+auth;
+const indx = Math.floor(Math.random()*allQuotes.length;
 
 }
 
