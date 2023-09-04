@@ -1,58 +1,51 @@
 
 
-
 const text=document.getElementById("quote");
-
 const author=document.getElementById("author");
-
-const tweetButton=document.getElementById("tweet");
-
-
 
 const getNewQuote = async () =>
 
 {
-
     //api for quotes
-
     var url="https://type.fit/api/quotes";    
 
 
+    // data from api
+    const response=await fetch(url);
+    console.log(typeof response);
 
-const response=await fetch(url);
-const quote=allQuotes[indx].text;
-
-    
-    // array
+    // quotes array
 
     const allQuotes = await response.json();
 
 
-
- text.innerHTML=quote;
-
-    author.innerHTML="~ "+auth;
+   // quotes array
+   indx = Math.floor(Math.random()*allQuotes.length);
 
 
-// array
-
-    const allQuotes =
-
-const auth=allQuotes[indx].author;
-const indx = Math.floor(Math.random()*allQuotes.length;
-
-}
-
-getNewQuote();
-
-
-
-       const indx = Math.floor(Math.random()*allQuotes.length);
-
-
-
-    / index
-
+    //  index
     const quote=allQuotes[indx].text;
 
-     
+    
+
+    // quote
+    const auth=allQuotes[indx].author;
+
+
+
+    if(auth==null)
+    {
+        author = "Anonymous";
+
+    }
+
+ 
+
+    // the author
+    text.innerHTML=quote;
+    author.innerHTML="~ "+auth;
+
+}
+getNewQuote();
+        
+        
