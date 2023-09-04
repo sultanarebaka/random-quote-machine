@@ -40,7 +40,6 @@ const getNewQuote = async () =>
     }
 
  
-
     // the author
     text.innerHTML=quote;
     author.innerHTML="~ "+auth;
