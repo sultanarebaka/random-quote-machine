@@ -10,11 +10,11 @@ const getNewQuote = async () =>
     var url="https://type.fit/api/quotes";    
 
 
-    // data from api
+    // data
     const response=await fetch(url);
     console.log(typeof response);
 
-    // quotes array
+    // array
 
     const allQuotes = await response.json();
 
